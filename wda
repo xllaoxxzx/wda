@@ -41,7 +41,7 @@ getgenv().Config = {
 end
 
 local Library = loadstring(Game:GetObjects("rbxassetid://7974127463")[1].Source)()
-local Window = Library({Name = "RAGDOLL UNIVERSE"}) do
+local Window = Library({Name = "KATER MULTI v.3"}) do
 	local MainTab = Window:AddTab({Name = "Main"}) do
         MainTab:AddToggle({Name = "Slient Aim",Side = "Left",Value = Config.SilentAim,Callback = function(Bool) 
             Config.SilentAim = Bool
